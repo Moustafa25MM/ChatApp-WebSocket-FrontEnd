@@ -1,0 +1,24 @@
+.home_bg{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/223/308/original/people-talking-illustration-vector.jpg);
+    height: 92vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.home-message-icon {
+    margin-left: 10px;
+    display: inline-block;
+}
+.home-title {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ff69b4; /* hot pink */
+    text-shadow: 3px 3px #333; /* add a shadow effect */
+}
+
+.home-subtitle {
+    font-size: 2rem;
+    color: #333; /* dark gray */
+}

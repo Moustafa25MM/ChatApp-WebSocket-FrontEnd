@@ -1,0 +1,31 @@
+.navigation-container {
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-link-container {
+    margin-right: 20px;
+  }
+  
+  .logo-image {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .navigation-link {
+    font-weight: bold;
+    color: #000;
+    margin-right: 20px;
+  }
+  
+  .user-avatar {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .user-dropdown {
+    margin-right: 20px;
+  }

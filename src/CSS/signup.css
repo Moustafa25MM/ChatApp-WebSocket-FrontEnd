@@ -1,0 +1,60 @@
+.signup_bg {
+    background-image: url(https://findingclarity.ca/wp-content/uploads/2020/05/AOIFE-uai-1777x1000.jpg);
+    height: 80vh;
+    /* width: 60vh;  */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+.signup-profile-pic__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    position: relative;
+  }
+
+  .signup-profile-pic {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid var(--border-color);
+    object-fit: cover;
+    height: 100px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .signup-profile-pic:hover {
+    transform: scale(1.1);
+  }
+
+  .add-picture-icon {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: green;
+    background: white;
+    cursor: pointer;
+    z-index: 99;
+    border: 2px solid var(--border-color);
+  }
+  Button {
+    background-image: linear-gradient(to right, #f43b47, #453a94);
+    border: none;
+  }
+
+  Form.Label,
+Form.Control {
+  color: #8c8c8c;
+}
+Form.Text {
+    color: #6fa8dc;
+  }
+  Link {
+    color: #4caf50;
+  }
+
+  .alert-danger {
+    color: #f44336;
+  }
