@@ -31,7 +31,7 @@ function Navigation() {
                 <Nav.Link className="navigation-link">Login</Nav.Link>
               </LinkContainer>
               <LinkContainer to="/signup">
-              <Nav.Link className="navigation-link">Sign UP</Nav.Link>
+              <Nav.Link className="navigation-link">Sign Up</Nav.Link>
             </LinkContainer>
             </>
             )}
