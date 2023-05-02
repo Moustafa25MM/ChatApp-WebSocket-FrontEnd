@@ -60,7 +60,7 @@ function SignUp() {
         signupUser({name,email,password,picture:url}).then(({data}) =>{
             if(data) {
                 console.log(data);
-                navigate('/login');
+                navigate('/chat');
 
             }
         })
