@@ -26,9 +26,14 @@ function Navigation() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             {!user && (
+              <>
               <LinkContainer to="/login">
                 <Nav.Link className="navigation-link">Login</Nav.Link>
               </LinkContainer>
+              <LinkContainer to="/signup">
+              <Nav.Link className="navigation-link">Sign UP</Nav.Link>
+            </LinkContainer>
+            </>
             )}
             <LinkContainer to="/chat">
               <Nav.Link className="navigation-link">Chat</Nav.Link>
